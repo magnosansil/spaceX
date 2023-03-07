@@ -1,0 +1,33 @@
+* {
+  color: white;
+}
+
+footer,
+.data,
+.services,
+.commercials {
+  background-color: black;
+}
+
+.social-media {
+  color: white; 
+}
+
+.copyright {
+  color: #555252;
+}
+
+.e-mail {
+  color: #b9b9b9;
+  &:hover {
+    color: #dbdada;
+  }
+}
+
+.caption {
+  background-color: black;
+}
+
+.comercials p {
+  color: #d8d8d8;
+}

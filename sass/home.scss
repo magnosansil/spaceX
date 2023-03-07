@@ -1,0 +1,35 @@
+.arrow-down img {
+  width: 80px;
+}
+
+.content-text {
+  padding-top: 30.5vh;
+}
+
+#content-index {
+  padding-left: 6.3rem;
+}
+
+@media (max-width: 768px) {
+  .content-text {
+    padding-top: 22vh;
+  }
+  #content-index {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #content-index {
+    padding-left: 0.8rem;
+  }
+  .arrow-down img {
+    display: none;
+  }
+}
+
+@media (max-height: 485px) {
+  .content-text {
+    padding-top: 18.5vh;
+  }
+}
