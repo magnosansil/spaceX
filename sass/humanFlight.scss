@@ -40,7 +40,13 @@
   padding-top: 30vh;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1399px) {
+  .title-human-flight {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
   .text-right,
   .text-left {
     padding-top: 25vh;
@@ -49,18 +55,16 @@
   .subtitle-human-flight {
     padding-bottom: 20px;
   }
+
+  .title-human-flight {
+    font-size: 90px;
+  }
 }
 
 
 @media (max-width: 992px) {
   .title-human-flight {
-    font-size: 100px;
-  }
-}
-
-@media (max-width: 885px) {
-  .title-human-flight {
-    font-size: 100px;
+    margin-top: 0;
   }
 }
 
@@ -163,7 +167,7 @@
   }
 }
 
-@media (min-height: 844px) {
+@media (min-height: 300px) {
   .title-human-flight {
     padding-top: 29vh;
   }
